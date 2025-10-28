@@ -12,7 +12,7 @@ zabbix_macro_id="12345"
 
 ### ARUBA VARS ###
 
-# To find yours, go here and check "Table: Domain URLs for API Gateway Access"
+# To find yours, go here (https://developer.arubanetworks.com/central/docs/api-oauth-access-token) and check "Table: Domain URLs for API Gateway Access"
 base_url="YOUR_ARUBA_CENTRAL_BASE_URL"
 
 # Click on your profile in the Central app and you will find it there: 32 char long hexa string
