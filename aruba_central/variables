@@ -1,4 +1,5 @@
 #!/bin/bash
+
 ### ZABBIX VARS ###
 
 # URL of your zabbix instance (assuming you do not use the "/zabbix" ending, if yes, then add it to the end)
@@ -9,6 +10,7 @@ zabbix_api_token="1234_your_zabbix_api_key_5678"
 
 # Create a host with a macro, remain at the "Macros" tab, turn on debug mode, look for "[hostmacroid] =>"
 zabbix_macro_id="12345" 
+
 
 ### ARUBA VARS ###
 
