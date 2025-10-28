@@ -1,0 +1,36 @@
+#!/bin/bash
+### ZABBIX VARS ###
+
+# URL of your zabbix instance (assuming you do not use the "/zabbix" ending, if yes, then add it to the end)
+zabbix_url="https://your.zabbix.instance.net"
+
+# Your Zabbix API token. If you do not know how to get it, check the documentation.
+zabbix_api_token="1234_your_zabbix_api_key_5678"
+
+# Create a host with a macro, remain at the "Macros" tab, turn on debug mode, look for "[hostmacroid] =>"
+zabbix_macro_id="12345" 
+
+### ARUBA VARS ###
+
+# To find yours, go here and check "Table: Domain URLs for API Gateway Access"
+base_url="YOUR_ARUBA_CENTRAL_BASE_URL"
+
+# Click on your profile in the Central app and you will find it there: 32 char long hexa string
+client_id="YOUR_CLIENT_ID"
+
+# provided in the previous step
+client_secret="YOUR_CLIENT_ID"
+
+# provided in the previous step
+customer_id="YOUR_CUSTOMER_ID"
+
+# your login credential
+account_username="YOUR_CENTRAL_LOGIN_USERNAME"
+
+# your login credential
+account_password="YOUR_CENTRAL_LOGIN_PASSWORD"
+
+# to be populated later
+csrftoken=""
+session=""
+auth_code=""
